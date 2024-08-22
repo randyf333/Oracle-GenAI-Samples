@@ -1,1 +1,1 @@
-Code learned from lessons in lessons in Oracles 2024 Generative AI Certification courses
+Code learned from lessons in Oracles 2024 Generative AI Certification courses. The genAI.py file is a very simple chatbot while memorydemo.py demonstrates the ability for chatbots to remember previous conversations and inputs.
