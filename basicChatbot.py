@@ -7,12 +7,12 @@ from langchain_core.messages import HumanMessage, SystemMessage
 import oci
 
 #Setup model
-endpoint = ' https://inference.generativeai.us-chicago-1.oci.oraclecloud.com'
+endpoint = 'Put your endpoint URL here'
 
 llm = OCIGenAI(
     model_id = "cohere.command",
     service_endpoint = endpoint,
-    compartment_id = "ocid1.compartment.oc1..aaaaaaaah3o77etbcfg2o25jxks2pucmyrz6veg26z5lgpx3q355nikleemq", #replace with OCID
+    compartment_id = "Put your OCID here", #replace with OCID
     model_kwargs = {"max_tokens":100}
 )
 
